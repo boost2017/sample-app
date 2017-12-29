@@ -219,7 +219,7 @@
 				3A2E4DD31FF5EAAD00AE317B /* Frameworks */,
 				3A2E4DD41FF5EAAD00AE317B /* Resources */,
 				3A2BA4AB1FF62C3900B22A6E /* Embed Frameworks */,
-				3A2BA4AC1FF62C4000B22A6E /* Trim Framework */,
+				3A2BA4AC1FF62C4000B22A6E /* Trim Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,14 +278,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A2BA4AC1FF62C4000B22A6E /* Trim Framework */ = {
+		3A2BA4AC1FF62C4000B22A6E /* Trim Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Trim Framework";
+			name = "Trim Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
