@@ -1,0 +1,36 @@
+config:
+  name: EzoRed
+  ios:
+    cmake_version: '3.9'
+    development_team_id: 54BDV6YZ73
+    bundle_id: com.ezored.sampleapp.framework
+    code_sign_identity: iPhone Developer
+    deployment_target: '8.0'
+    device_family: '1,2'
+    version: 1.0.0
+    cpp_standard: '11'
+  android:
+    cmake_version: '3.6'
+    cpp_standard: '11'
+targets:
+  - name: ios
+    repository:
+      name: ezored/target-ios
+      type: github
+  - name: android
+    repository:
+      name: ezored/target-android
+      type: github
+dependencies:
+  - repository:
+      name: ezored/dependency-djinni-support
+      type: github
+  - repository:
+      name: ezored/dependency-sample
+      type: github
+  - repository:
+      name: ezored/dependency-media-audio-streamer
+      type: github
+  - repository:
+      name: ezored/dependency-http-httpclient
+      type: github

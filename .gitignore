@@ -1,0 +1,33 @@
+# EzoRed
+/temp
+/vendor
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Xcode
+source/ios/*.pbxuser
+source/ios/!default.pbxuser
+source/ios/*.mode1v3
+source/ios/!default.mode1v3
+source/ios/*.mode2v3
+source/ios/!default.mode2v3
+source/ios/*.perspectivev3
+source/ios/!default.perspectivev3
+source/ios/xcuserdata
+source/ios/*.xccheckout
+source/ios/*.moved-aside
+source/ios/DerivedData
+source/ios/*.hmap
+source/ios/*.ipa
+source/ios/*.xcuserstate
+
+# IDE
+.idea
+.vscode
+
+# Misc
+source/ios/fastlane/report.xml
