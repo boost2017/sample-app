@@ -1,0 +1,52 @@
+targets:
+- name: ios
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/greeting_message_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/greeting_message_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessageBridge.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessageBridge+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessagePlatformService.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRGreetingMessagePlatformServiceImpl.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/GreetingMessageBridgeImpl.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared/ezored/sample/GreetingMessage.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessageBridge+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRGreetingMessagePlatformServiceImpl.m"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/GreetingMessageBridgeImpl.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared/ezored/sample/GreetingMessage.cpp"
+    framework_links:
+    - UIKit
+- name: android
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/java"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/greeting_message_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/greeting_message_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/GreetingMessageBridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/GreetingMessagePlatformService.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/GreetingMessageBridgeImpl.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared/ezored/sample/GreetingMessage.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/GreetingMessageBridge.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/GreetingMessagePlatformService.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/GreetingMessageBridgeImpl.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared/ezored/sample/GreetingMessage.cpp"
+    copy_files:
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/GreetingMessageBridge.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/sample/GreetingMessageBridge.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/GreetingMessagePlatformService.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/sample/GreetingMessagePlatformService.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/source/java/GreetingMessagePlatformServiceImpl.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/sample/GreetingMessagePlatformServiceImpl.java"

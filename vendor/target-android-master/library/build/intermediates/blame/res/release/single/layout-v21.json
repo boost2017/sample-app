@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/layout-v21/notification_action.xml"
+    }
+]

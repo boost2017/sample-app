@@ -1,0 +1,40 @@
+targets:
+- name: ios
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJICppWrapperCache+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJIError.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJIMarshal+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJIObjcWrapperCache+Private.h"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJIError.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/objc/DJIProxyCaches.mm"
+    framework_links:
+    - Foundation
+    c_flags:
+    - "-fobjc-arc"
+    - "-Wall"
+    cxx_flags:
+    - "-fobjc-arc"
+    - "-std=c++${EZORED_PROJECT_CONFIG_CPP_STANDARD}"
+    - "-stdlib=libc++"
+    - "-Wall"
+- name: android
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/jni/"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/jni/djinni_support.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/jni/Marshal.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/jni/djinni_main.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/support-lib/jni/djinni_support.cpp"
+    c_flags:
+    - "-Wall"
+    cxx_flags:
+    - "-std=c++${EZORED_PROJECT_CONFIG_CPP_STANDARD}"
+    - "-frtti"
+    - "-fexceptions"
+    - "-Wall"

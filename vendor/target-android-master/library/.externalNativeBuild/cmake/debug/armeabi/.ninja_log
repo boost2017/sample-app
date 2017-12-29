@@ -1,0 +1,15 @@
+# ninja log v5
+6	498	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp.o	e6f955bdddf14b06
+0	778	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/jni/djinni_main.cpp.o	a208ac0f123aef7b
+3	926	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp.o	9141217797c39919
+2	1352	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/jni-output/GreetingMessagePlatformService.cpp.o	9e6e877822684b83
+926	1435	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp.o	7dc7730cedb5528f
+1	1654	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/jni-output/GreetingMessageBridge.cpp.o	16c4b4cd0bc08c70
+779	2061	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/jni-output/AudioStreamerPlatformService.cpp.o	12f3754950619d0b
+500	2107	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/jni-output/AudioStreamerBridge.cpp.o	730acca9dafb4cb9
+1	2316	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/jni/djinni_support.cpp.o	f65f5d1bdf3fe10b
+2061	2481	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp.o	18e874e6fa40aec5
+1435	2524	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/jni-output/HttpClientPlatformService.cpp.o	6a20c71411a65d3a
+1654	2545	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/jni-output/HttpResponse.cpp.o	727e3019bba59c97
+1353	2606	0	CMakeFiles/EzoRed.dir/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/jni-output/HttpClientBridge.cpp.o	cbbe09232bf9bd68
+2606	2934	0	../../../../build/intermediates/cmake/debug/obj/armeabi/libEzoRed.so	915e9ee97d1d3e58

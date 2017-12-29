@@ -1,0 +1,178 @@
+The target system is: Darwin - 11.2 - 
+The host system is: Darwin - 17.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: -mtvos-simulator-version-min=8.0;-fembed-bitcode;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC-project-headers.hmap
+/bin/mkdir -p /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+Create product structure
+/bin/mkdir -p /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest
+
+ProcessProductPackaging "" CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC.xctest.xcent
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "99AHAA343Q.";
+    "keychain-access-groups" =     (
+        "99AHAA343Q."
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC.xctest.xcent
+
+CompileC CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mtvos-simulator-version-min=11.2 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC.hmap -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/include -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/DerivedSources/x86_64 -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/DerivedSources -F/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC -iframework /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CMakeCCompilerId.c -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC.xctest/CompilerIdC normal x86_64
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    export TVOS_DEPLOYMENT_TARGET=11.2
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk -L/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC -F/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC -F/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks -filelist /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mtvos-simulator-version-min=11.2 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/CompilerIdC.xctest.xcent -Xlinker -dependency_info -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC
+
+GenerateDSYMFile CompilerIdC.xctest.dSYM CompilerIdC.xctest/CompilerIdC
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    /bin/sh -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.build/Debug-appletvsimulator/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+Touch CompilerIdC.xctest
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /usr/bin/touch -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest
+
+CodeSign CompilerIdC.xctest
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --timestamp=none /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.xctest/CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.xctest/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: -mtvos-simulator-version-min=8.0;-fembed-bitcode;-fvisibility=hidden;-fvisibility-inlines-hidden;-fobjc-abi-version=2;-fobjc-arc;
+Id flags:  
+
+The output was:
+0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+Create product structure
+/bin/mkdir -p /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+ProcessProductPackaging "" CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "99AHAA343Q.";
+    "keychain-access-groups" =     (
+        "99AHAA343Q."
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent
+
+CompileC CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mtvos-simulator-version-min=11.2 -g -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/include -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/DerivedSources -F/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX -iframework /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks -MMD -MT dependencies -MF /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX.xctest/CompilerIdCXX normal x86_64
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    export TVOS_DEPLOYMENT_TARGET=11.2
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk -L/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX -F/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX -F/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/Library/Frameworks -filelist /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mtvos-simulator-version-min=11.2 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -objc_abi_version -Xlinker 2 -framework XCTest -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/CompilerIdCXX.xctest.xcent -Xlinker -dependency_info -Xlinker /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX
+
+GenerateDSYMFile CompilerIdCXX.xctest.dSYM CompilerIdCXX.xctest/CompilerIdCXX
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX -o /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest.dSYM
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    /bin/sh -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.build/Debug-appletvsimulator/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+CURRENT_ARCH=x86_64
+
+Touch CompilerIdCXX.xctest
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    /usr/bin/touch -c /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+CodeSign CompilerIdCXX.xctest
+    cd /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/paulo/Developer/cocos2d-x/templates:/Users/paulo/Developer:/Users/paulo/Developer/cocos2d-x/tools/cocos2d-console/bin:/Users/paulo/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/paulo/Developer/workspaces/go/bin/:/Users/paulo/Library/Android/sdk/tools/bin:/Users/paulo/Dropbox/Docs/Scripts/:/Users/paulo/Developer/android-ndk-r14b:/Users/paulo/Library/Android/sdk//platform-tools:/Users/paulo/.gems/bin:/Users/paulo/Developer/emsdk:/Users/paulo/Developer/flink/bin"
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --timestamp=none /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.xctest/CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/3.10.0/CompilerIdCXX/CompilerIdCXX.xctest/CompilerIdCXX"
+

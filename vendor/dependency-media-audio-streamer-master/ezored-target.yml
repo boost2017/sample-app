@@ -1,0 +1,48 @@
+targets:
+- name: ios
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc"    
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/audio_streamer_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/audio_streamer_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerBridge.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerBridge+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerPlatformService.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/audio_streamer_bridge_impl.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRAudioStreamerPlatformServiceImpl.h"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerBridge+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/audio_streamer_bridge_impl.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRAudioStreamerPlatformServiceImpl.m"    
+    framework_links:
+    - AVFoundation
+    - UIKit    
+- name: android
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp"    
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/audio_streamer_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/audio_streamer_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/AudioStreamerBridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/AudioStreamerPlatformService.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/audio_streamer_bridge_impl.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/AudioStreamerBridge.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/AudioStreamerPlatformService.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/audio_streamer_bridge_impl.cpp"
+    copy_files:
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/AudioStreamerBridge.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/media/AudioStreamerBridge.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/AudioStreamerPlatformService.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/media/AudioStreamerPlatformService.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/source/java/com/ezored/media/AudioStreamerPlatformServiceImpl.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/media/AudioStreamerPlatformServiceImpl.java"

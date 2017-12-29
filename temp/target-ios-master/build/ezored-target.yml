@@ -1,0 +1,6 @@
+target:
+  build:
+  - python
+  - build.py
+  parse_files:
+  - "${EZORED_TARGET_VENDOR_DIR}/CMakeLists.txt"

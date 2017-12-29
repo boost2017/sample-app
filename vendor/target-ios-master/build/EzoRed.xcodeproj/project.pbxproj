@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		42A306B1F1D5464EB48D3F7B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4645040DBB57416F8D3AE64B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8BCD0603F4F345D4A9E6DFCF /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		561D9841170C48A4BD2160CF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 05E4A5B8148F4E34B1B68E2C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				7C040E026FFC4C998EE0F795 /* CMake Rules */,
+			);
+			dependencies = (
+				3AAE42C7FF814E9BBA908B0E /* PBXTargetDependency */,
+				D76EC09D348A481AA0F08C01 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01C948535C4548C9BB7AE38C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h */ = {isa = PBXBuildFile; fileRef = AD07AE46F83E4657A6D06D73 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		0A494E75F47A477EA0BFC0BA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm */ = {isa = PBXBuildFile; fileRef = AADB1903874343FBA607D250 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm */; };
+		1148A3FEE69640228E00AD06 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h */ = {isa = PBXBuildFile; fileRef = E836A5B65CF042AF9F66F567 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h */; settings = {ATTRIBUTES = (Public); }; };
+		119DE3E0AAEB4E1F8293FE58 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h */ = {isa = PBXBuildFile; fileRef = 70D14BBC222D4DBB9DAFD1CB /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h */; settings = {ATTRIBUTES = (Public); }; };
+		1383FC59DF914C86A86D7FF9 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h */ = {isa = PBXBuildFile; fileRef = 879E12BAECAB4B27AEFD0EAE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h */; settings = {ATTRIBUTES = (Public); }; };
+		15379AC012A045DB910F8D4C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h */ = {isa = PBXBuildFile; fileRef = 39F66148C71E4BA0B9E56FDD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h */; settings = {ATTRIBUTES = (Public); }; };
+		1D2409BDEE9644A9A0A95FAA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp */ = {isa = PBXBuildFile; fileRef = CD358ECE20874D8485230417 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		1F68F4EC2D7B477A89C944DC /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 43B5A2830E62499F931E4AED /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		220A1D0F874144028D7EEB58 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp */ = {isa = PBXBuildFile; fileRef = A16F376041B445528D95A2E8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp */; };
+		290DFAFEF5FF4E7EBA1CA8DE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h */ = {isa = PBXBuildFile; fileRef = D4A00B8E016C41D9AA0DD025 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h */; settings = {ATTRIBUTES = (Public); }; };
+		29CFDEF22764409D80882671 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h */ = {isa = PBXBuildFile; fileRef = D34EC407D1844C288F672F36 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h */; settings = {ATTRIBUTES = (Public); }; };
+		343C0E7CCC6A45EBBF33FB59 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm */ = {isa = PBXBuildFile; fileRef = 0A153D604EDA42AA80CE8746 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm */; };
+		38B00DD1F56B49ADAFA24249 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXBuildFile; fileRef = 5715E629249445A39425873A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		3917A391682C4914B01984FD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h */ = {isa = PBXBuildFile; fileRef = A732D1CBBE3F4132A168A333 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		4A6A312F8FA44AA0B0900AA9 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h */ = {isa = PBXBuildFile; fileRef = 46EEFA35949A43088D7CFC87 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		4D861712AC39445C91D84502 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm */ = {isa = PBXBuildFile; fileRef = D1BF2A07B527425789B794C5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm */; };
+		4E012EA3AEAA4F9E927BE695 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h */ = {isa = PBXBuildFile; fileRef = A30C8C13E3394B7C9B76767F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		4F41BED114D5467BB3244378 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.h */ = {isa = PBXBuildFile; fileRef = 7430857DA2104A85A32756FA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.h */; settings = {ATTRIBUTES = (Public); }; };
+		5425177681BC4E9DB4B117AD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp */ = {isa = PBXBuildFile; fileRef = AF3B281A9A424A8F98D1C550 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		568869A9F12E48C4B4BC4D5A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp */ = {isa = PBXBuildFile; fileRef = 419479431FC142B2A236D841 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		590FC7DE508743FBABB04093 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp */ = {isa = PBXBuildFile; fileRef = A3C55BC97DC64D88A08C4606 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		5A0791870F67447198B9ED0C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m */ = {isa = PBXBuildFile; fileRef = 13763551C50B469892AC6B93 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m */; };
+		6039FBEA5EA649D8B6362446 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp */ = {isa = PBXBuildFile; fileRef = BD0D4DA328DE4F89B285F63B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp */; };
+		60D2D25D3E6E4B0D94FE87D7 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXBuildFile; fileRef = F68351ECE0464BD588D49A14 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm */; };
+		670844B633CF4252B7057D80 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm */ = {isa = PBXBuildFile; fileRef = D5AE7B45C133449E9B818714 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm */; };
+		6AC9DDBB4C264E29A6BE5ACF /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm */ = {isa = PBXBuildFile; fileRef = 2BAFBB0B1C2D443499029489 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm */; };
+		7096E6F541B0490B8D9BDD90 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h */ = {isa = PBXBuildFile; fileRef = 773F31E3F92440B69227560C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h */; settings = {ATTRIBUTES = (Public); }; };
+		71C14132E8E14DDF94842867 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp */ = {isa = PBXBuildFile; fileRef = CFCF3858D44D478699CC006A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		73F64935124E47AC8299F692 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h */ = {isa = PBXBuildFile; fileRef = BFDC7A0A392C43FEA3604355 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		7F18BFEE62DF46A1A6EE7A8D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h */ = {isa = PBXBuildFile; fileRef = 21DD77D46771432CB288013B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h */; settings = {ATTRIBUTES = (Public); }; };
+		83CD5320046942AC9F68A911 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6E404300E2D8467A88CDF794 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */; };
+		868FCDDB479D43ADA8CEC6E4 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp */ = {isa = PBXBuildFile; fileRef = ADFD415E1F1A4C76A5DF74C3 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		8B8BC995EB23458FB31997E0 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm */ = {isa = PBXBuildFile; fileRef = 032A0D858B8C46EBB617B1C2 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm */; };
+		99E09101A4CC499D872DB9C5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp */ = {isa = PBXBuildFile; fileRef = 040E59DEAA4E4527A580E2CA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		9CFF5DEC2D18497DA3D3EDE8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h */ = {isa = PBXBuildFile; fileRef = 9F945DD2E51143809B0A06EE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		BBF1A86D269F47728A6248EA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h */ = {isa = PBXBuildFile; fileRef = 9AD7B410AB474AE39191392D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h */; settings = {ATTRIBUTES = (Public); }; };
+		BD25F88695534EDB9E710AE8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp */ = {isa = PBXBuildFile; fileRef = 326A3D43AA264A7FAEC23DCD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		BD7182A538C6400A80EFDF83 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp */ = {isa = PBXBuildFile; fileRef = 8561A966458F44139A87A954 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		BFF45E120FF04BC09AC7534A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp */ = {isa = PBXBuildFile; fileRef = 382F1C0CC74F401A86BEB415 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		C2523457F3A54B25A40559A3 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp */ = {isa = PBXBuildFile; fileRef = 495CADBA3E8848BC9C137E8A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp */; };
+		CC462759672B49C78D44928A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp */ = {isa = PBXBuildFile; fileRef = 6CC4A0F64727461C8F250738 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp */; };
+		CE6F56F9EC924FA7B680C207 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp */ = {isa = PBXBuildFile; fileRef = A5AA1C42782340F9AE399EB0 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp */; settings = {ATTRIBUTES = (Public); }; };
+		D071C861DD294A24A0B00FF4 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.mm */ = {isa = PBXBuildFile; fileRef = 7A218551249D4C7E9080F13C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.mm */; };
+		DE769F365DA4473CBF91A30C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m */ = {isa = PBXBuildFile; fileRef = 1CF88276DAF34C14B5E261F5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m */; };
+		DF57C12C342543C0A559AE64 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXBuildFile; fileRef = 09A13DDD5A584FE8ABD2214D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		E65A8D9952084BA6A2CFBB92 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h */ = {isa = PBXBuildFile; fileRef = AFC438D8BCC548FA9416CF89 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h */; settings = {ATTRIBUTES = (Public); }; };
+		E6AB1DC2C8F54E6D9D59C04F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm */ = {isa = PBXBuildFile; fileRef = 5950D685CE774EF8B3FA5690 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm */; };
+		F44E3CA0428F426CBCD221CC /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm */ = {isa = PBXBuildFile; fileRef = CAE374B55BC4418CA91D00EA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm */; };
+		FD9591D8CEDA45C9A090F72E /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m */ = {isa = PBXBuildFile; fileRef = 124254F812FC4500914DD911 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m */; };
+		FDB9A2C0FC114E6A9DC104FB /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h */ = {isa = PBXBuildFile; fileRef = 0702E504E6014BDABC1D7F24 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h */; settings = {ATTRIBUTES = (Public); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2E99B1CE63054032A4F6D4CD /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6C8BEBE2DA164E5AA63EC479 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		87FD8DBFC5B04C4AB103FD9D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E69136E4B3394E93B7454FCB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		70ECCDADD2A54A7A83C0228D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF142185F2A4F75B9799E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A702E9F68B404DACA0419685;
+			remoteInfo = EzoRed;
+		};
+		8156B026EEA44B44A0EF18B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF142185F2A4F75B9799E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A306B1F1D5464EB48D3F7B;
+			remoteInfo = ZERO_CHECK;
+		};
+		D9C40BD950094AA4826AFF8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF142185F2A4F75B9799E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A306B1F1D5464EB48D3F7B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032A0D858B8C46EBB617B1C2 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRHttpResponse+Private.mm"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm"; sourceTree = SOURCE_ROOT; };
+		040E59DEAA4E4527A580E2CA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = http_client_platform_service.hpp; path = "../dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp"; sourceTree = SOURCE_ROOT; };
+		0702E504E6014BDABC1D7F24 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRAudioStreamerBridge.h; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h"; sourceTree = SOURCE_ROOT; };
+		09A13DDD5A584FE8ABD2214D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIObjcWrapperCache+Private.h"; path = "../dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		0A153D604EDA42AA80CE8746 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRHttpClientBridge+Private.mm"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm"; sourceTree = SOURCE_ROOT; };
+		124254F812FC4500914DD911 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = EZRAudioStreamerPlatformServiceImpl.m; path = "../dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m"; sourceTree = SOURCE_ROOT; };
+		13763551C50B469892AC6B93 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = EZRGreetingMessagePlatformServiceImpl.m; path = "../dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m"; sourceTree = SOURCE_ROOT; };
+		1CF88276DAF34C14B5E261F5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = EZRHttpClientPlatformServiceImpl.m; path = "../dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m"; sourceTree = SOURCE_ROOT; };
+		21DD77D46771432CB288013B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRHttpResponse.h; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h"; sourceTree = SOURCE_ROOT; };
+		2BAFBB0B1C2D443499029489 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRGreetingMessageBridge+Private.mm"; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm"; sourceTree = SOURCE_ROOT; };
+		326A3D43AA264A7FAEC23DCD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = audio_streamer_bridge.hpp; path = "../dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp"; sourceTree = SOURCE_ROOT; };
+		382F1C0CC74F401A86BEB415 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = audio_streamer_platform_service.hpp; path = "../dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp"; sourceTree = SOURCE_ROOT; };
+		39F66148C71E4BA0B9E56FDD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRHttpClientPlatformServiceImpl.h; path = "../dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h"; sourceTree = SOURCE_ROOT; };
+		419479431FC142B2A236D841 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = http_response.hpp; path = "../dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp"; sourceTree = SOURCE_ROOT; };
+		43B5A2830E62499F931E4AED /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJICppWrapperCache+Private.h"; path = "../dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h"; sourceTree = SOURCE_ROOT; };
+		46EEFA35949A43088D7CFC87 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRHttpResponse+Private.h"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h"; sourceTree = SOURCE_ROOT; };
+		495CADBA3E8848BC9C137E8A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GreetingMessageBridgeImpl.cpp; path = "../dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		5715E629249445A39425873A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "DJIMarshal+Private.h"; path = "../dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h"; sourceTree = SOURCE_ROOT; };
+		5950D685CE774EF8B3FA5690 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRAudioStreamerBridge+Private.mm"; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm"; sourceTree = SOURCE_ROOT; };
+		6CC4A0F64727461C8F250738 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = audio_streamer_bridge_impl.cpp; path = "../dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp"; sourceTree = SOURCE_ROOT; };
+		6E404300E2D8467A88CDF794 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		70D14BBC222D4DBB9DAFD1CB /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRHttpClientPlatformService.h; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h"; sourceTree = SOURCE_ROOT; };
+		7430857DA2104A85A32756FA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DJIError.h; path = "../dependency-djinni-support-master/support-lib/objc/DJIError.h"; sourceTree = SOURCE_ROOT; };
+		773F31E3F92440B69227560C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRGreetingMessagePlatformServiceImpl.h; path = "../dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h"; sourceTree = SOURCE_ROOT; };
+		7A218551249D4C7E9080F13C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIError.mm; path = "../dependency-djinni-support-master/support-lib/objc/DJIError.mm"; sourceTree = SOURCE_ROOT; };
+		82A8B274CED94933AF6AFA8F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8561A966458F44139A87A954 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GreetingMessage.hpp; path = "../dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp"; sourceTree = SOURCE_ROOT; };
+		879E12BAECAB4B27AEFD0EAE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRGreetingMessageBridge.h; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h"; sourceTree = SOURCE_ROOT; };
+		9AD7B410AB474AE39191392D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRGreetingMessagePlatformService.h; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h"; sourceTree = SOURCE_ROOT; };
+		9F945DD2E51143809B0A06EE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRHttpClientBridge+Private.h"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h"; sourceTree = SOURCE_ROOT; };
+		A16F376041B445528D95A2E8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GreetingMessage.cpp; path = "../dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp"; sourceTree = SOURCE_ROOT; };
+		A30C8C13E3394B7C9B76767F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRGreetingMessageBridge+Private.h"; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h"; sourceTree = SOURCE_ROOT; };
+		A3C55BC97DC64D88A08C4606 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = greeting_message_bridge.hpp; path = "../dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp"; sourceTree = SOURCE_ROOT; };
+		A5AA1C42782340F9AE399EB0 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = http_client_bridge.hpp; path = "../dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp"; sourceTree = SOURCE_ROOT; };
+		A732D1CBBE3F4132A168A333 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRGreetingMessagePlatformService+Private.h"; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h"; sourceTree = SOURCE_ROOT; };
+		AADB1903874343FBA607D250 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRGreetingMessagePlatformService+Private.mm"; path = "../dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm"; sourceTree = SOURCE_ROOT; };
+		AD07AE46F83E4657A6D06D73 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRAudioStreamerPlatformService+Private.h"; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h"; sourceTree = SOURCE_ROOT; };
+		ADB4AC8B5F434070B0AAD5DB /* EzoRed */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EzoRed.framework/EzoRed; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFD415E1F1A4C76A5DF74C3 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = audio_streamer_bridge_impl.hpp; path = "../dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp"; sourceTree = SOURCE_ROOT; };
+		AF3B281A9A424A8F98D1C550 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = HttpClientBridgeImpl.hpp; path = "../dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		AFC438D8BCC548FA9416CF89 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRHttpClientPlatformService+Private.h"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h"; sourceTree = SOURCE_ROOT; };
+		BD0D4DA328DE4F89B285F63B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HttpClientBridgeImpl.cpp; path = "../dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp"; sourceTree = SOURCE_ROOT; };
+		BFDC7A0A392C43FEA3604355 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "EZRAudioStreamerBridge+Private.h"; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h"; sourceTree = SOURCE_ROOT; };
+		CAE374B55BC4418CA91D00EA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRHttpClientPlatformService+Private.mm"; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm"; sourceTree = SOURCE_ROOT; };
+		CD358ECE20874D8485230417 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GreetingMessageBridgeImpl.hpp; path = "../dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp"; sourceTree = SOURCE_ROOT; };
+		CFCF3858D44D478699CC006A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = greeting_message_platform_service.hpp; path = "../dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp"; sourceTree = SOURCE_ROOT; };
+		D1BF2A07B527425789B794C5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = "EZRAudioStreamerPlatformService+Private.mm"; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm"; sourceTree = SOURCE_ROOT; };
+		D34EC407D1844C288F672F36 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRAudioStreamerPlatformServiceImpl.h; path = "../dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h"; sourceTree = SOURCE_ROOT; };
+		D4A00B8E016C41D9AA0DD025 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRHttpClientBridge.h; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h"; sourceTree = SOURCE_ROOT; };
+		D5AE7B45C133449E9B818714 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = EZRHttpResponse.mm; path = "../dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm"; sourceTree = SOURCE_ROOT; };
+		E836A5B65CF042AF9F66F567 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = EZRAudioStreamerPlatformService.h; path = "../dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h"; sourceTree = SOURCE_ROOT; };
+		E882E017C27B44B0939E5428 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F68351ECE0464BD588D49A14 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = DJIProxyCaches.mm; path = "../dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B29B7CD1C614FBA8AAA1C4C /* ezored-dependency-sample */ = {
+			isa = PBXGroup;
+			children = (
+				A3C55BC97DC64D88A08C4606 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp */,
+				CFCF3858D44D478699CC006A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp */,
+				A30C8C13E3394B7C9B76767F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h */,
+				2BAFBB0B1C2D443499029489 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm */,
+				879E12BAECAB4B27AEFD0EAE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h */,
+				A732D1CBBE3F4132A168A333 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h */,
+				AADB1903874343FBA607D250 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm */,
+				9AD7B410AB474AE39191392D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h */,
+				495CADBA3E8848BC9C137E8A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp */,
+				CD358ECE20874D8485230417 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp */,
+				773F31E3F92440B69227560C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h */,
+				13763551C50B469892AC6B93 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m */,
+				A16F376041B445528D95A2E8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp */,
+				8561A966458F44139A87A954 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp */,
+			);
+			name = "ezored-dependency-sample";
+			sourceTree = "<group>";
+		};
+		45B620C7062B41BE9BC460D8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4819AE3365EA4C9589120FA9 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				45B620C7062B41BE9BC460D8 /* CMake Rules */,
+				E882E017C27B44B0939E5428 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		6D55B670F2C0459EA9525634 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7A084D7406D84C999019D894 /* ezored-dependency-djinni-support */ = {
+			isa = PBXGroup;
+			children = (
+				43B5A2830E62499F931E4AED /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h */,
+				7430857DA2104A85A32756FA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.h */,
+				7A218551249D4C7E9080F13C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.mm */,
+				5715E629249445A39425873A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h */,
+				09A13DDD5A584FE8ABD2214D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				F68351ECE0464BD588D49A14 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm */,
+			);
+			name = "ezored-dependency-djinni-support";
+			sourceTree = "<group>";
+		};
+		7BAFDBC227C5400785C9A331 /* ezored-dependency-http-httpclient */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA1C42782340F9AE399EB0 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp */,
+				040E59DEAA4E4527A580E2CA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp */,
+				419479431FC142B2A236D841 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp */,
+				9F945DD2E51143809B0A06EE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h */,
+				0A153D604EDA42AA80CE8746 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm */,
+				D4A00B8E016C41D9AA0DD025 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h */,
+				AFC438D8BCC548FA9416CF89 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h */,
+				CAE374B55BC4418CA91D00EA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm */,
+				70D14BBC222D4DBB9DAFD1CB /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h */,
+				46EEFA35949A43088D7CFC87 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h */,
+				032A0D858B8C46EBB617B1C2 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm */,
+				21DD77D46771432CB288013B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h */,
+				D5AE7B45C133449E9B818714 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm */,
+				BD0D4DA328DE4F89B285F63B /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp */,
+				AF3B281A9A424A8F98D1C550 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp */,
+				39F66148C71E4BA0B9E56FDD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h */,
+				1CF88276DAF34C14B5E261F5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m */,
+			);
+			name = "ezored-dependency-http-httpclient";
+			sourceTree = "<group>";
+		};
+		8CC0FD2718CE4F3C949CDF96 = {
+			isa = PBXGroup;
+			children = (
+				BB552745839D4C4FB71D1121 /* EzoRed */,
+				B032C0DDEF1042B59009080C /* ALL_BUILD */,
+				4819AE3365EA4C9589120FA9 /* ZERO_CHECK */,
+				DB709E8D46E9426F859D113F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B032C0DDEF1042B59009080C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6D55B670F2C0459EA9525634 /* CMake Rules */,
+				82A8B274CED94933AF6AFA8F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BB552745839D4C4FB71D1121 /* EzoRed */ = {
+			isa = PBXGroup;
+			children = (
+				7A084D7406D84C999019D894 /* ezored-dependency-djinni-support */,
+				1B29B7CD1C614FBA8AAA1C4C /* ezored-dependency-sample */,
+				EC61F3149B2B43599798BCC3 /* ezored-dependency-media-audio-streamer */,
+				7BAFDBC227C5400785C9A331 /* ezored-dependency-http-httpclient */,
+				6E404300E2D8467A88CDF794 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/CMakeLists.txt */,
+			);
+			name = EzoRed;
+			sourceTree = "<group>";
+		};
+		DB709E8D46E9426F859D113F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB4AC8B5F434070B0AAD5DB /* EzoRed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC61F3149B2B43599798BCC3 /* ezored-dependency-media-audio-streamer */ = {
+			isa = PBXGroup;
+			children = (
+				326A3D43AA264A7FAEC23DCD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp */,
+				382F1C0CC74F401A86BEB415 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp */,
+				BFDC7A0A392C43FEA3604355 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h */,
+				5950D685CE774EF8B3FA5690 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm */,
+				0702E504E6014BDABC1D7F24 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h */,
+				AD07AE46F83E4657A6D06D73 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h */,
+				D1BF2A07B527425789B794C5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm */,
+				E836A5B65CF042AF9F66F567 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h */,
+				6CC4A0F64727461C8F250738 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp */,
+				ADFD415E1F1A4C76A5DF74C3 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp */,
+				D34EC407D1844C288F672F36 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h */,
+				124254F812FC4500914DD911 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m */,
+			);
+			name = "ezored-dependency-media-audio-streamer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1466D5CCD7A4B5CB475349D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68F4EC2D7B477A89C944DC /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJICppWrapperCache+Private.h */,
+				4F41BED114D5467BB3244378 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.h */,
+				38B00DD1F56B49ADAFA24249 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIMarshal+Private.h */,
+				DF57C12C342543C0A559AE64 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIObjcWrapperCache+Private.h */,
+				CE6F56F9EC924FA7B680C207 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_bridge.hpp */,
+				99E09101A4CC499D872DB9C5 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_client_platform_service.hpp */,
+				568869A9F12E48C4B4BC4D5A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output/http_response.hpp */,
+				9CFF5DEC2D18497DA3D3EDE8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.h */,
+				290DFAFEF5FF4E7EBA1CA8DE /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge.h */,
+				E65A8D9952084BA6A2CFBB92 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.h */,
+				119DE3E0AAEB4E1F8293FE58 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService.h */,
+				4A6A312F8FA44AA0B0900AA9 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.h */,
+				7F18BFEE62DF46A1A6EE7A8D /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.h */,
+				5425177681BC4E9DB4B117AD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.hpp */,
+				15379AC012A045DB910F8D4C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.h */,
+				BD25F88695534EDB9E710AE8 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_bridge.hpp */,
+				BFF45E120FF04BC09AC7534A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output/audio_streamer_platform_service.hpp */,
+				73F64935124E47AC8299F692 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.h */,
+				FDB9A2C0FC114E6A9DC104FB /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge.h */,
+				01C948535C4548C9BB7AE38C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.h */,
+				1148A3FEE69640228E00AD06 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService.h */,
+				868FCDDB479D43ADA8CEC6E4 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.hpp */,
+				29CFDEF22764409D80882671 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.h */,
+				590FC7DE508743FBABB04093 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_bridge.hpp */,
+				71C14132E8E14DDF94842867 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output/greeting_message_platform_service.hpp */,
+				4E012EA3AEAA4F9E927BE695 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.h */,
+				1383FC59DF914C86A86D7FF9 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge.h */,
+				3917A391682C4914B01984FD /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.h */,
+				BBF1A86D269F47728A6248EA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService.h */,
+				1D2409BDEE9644A9A0A95FAA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.hpp */,
+				7096E6F541B0490B8D9BDD90 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.h */,
+				BD7182A538C6400A80EFDF83 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.hpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A702E9F68B404DACA0419685 /* EzoRed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F804746F4A4D2895921091 /* Build configuration list for PBXNativeTarget "EzoRed" */;
+			buildPhases = (
+				C1466D5CCD7A4B5CB475349D /* Headers */,
+				D98EA030DB1E4BE5A50E9539 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9EC9DB943E049F9A0E7864A /* PBXTargetDependency */,
+			);
+			name = EzoRed;
+			productName = EzoRed;
+			productReference = ADB4AC8B5F434070B0AAD5DB /* EzoRed */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF142185F2A4F75B9799E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 034F5BD34AEA497DBB6CCE7E /* Build configuration list for PBXProject "EzoRed" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				87FD8DBFC5B04C4AB103FD9D /* Debug */,
+				6C8BEBE2DA164E5AA63EC479 /* Release */,
+				2E99B1CE63054032A4F6D4CD /* MinSizeRel */,
+				E69136E4B3394E93B7454FCB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8CC0FD2718CE4F3C949CDF96;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				561D9841170C48A4BD2160CF /* ALL_BUILD */,
+				A702E9F68B404DACA0419685 /* EzoRed */,
+				42A306B1F1D5464EB48D3F7B /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FFF9C50B9A7455EA5A067AA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5E08C010B37E4218B502C2D3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7C040E026FFC4C998EE0F795 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build -f /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		8BCD0603F4F345D4A9E6DFCF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build -f /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98EA030DB1E4BE5A50E9539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D071C861DD294A24A0B00FF4 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIError.mm */,
+				60D2D25D3E6E4B0D94FE87D7 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc/DJIProxyCaches.mm */,
+				343C0E7CCC6A45EBBF33FB59 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientBridge+Private.mm */,
+				F44E3CA0428F426CBCD221CC /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpClientPlatformService+Private.mm */,
+				8B8BC995EB23458FB31997E0 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse+Private.mm */,
+				670844B633CF4252B7057D80 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output/EZRHttpResponse.mm */,
+				6039FBEA5EA649D8B6362446 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/cpp/HttpClientBridgeImpl.cpp */,
+				DE769F365DA4473CBF91A30C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc/EZRHttpClientPlatformServiceImpl.m */,
+				E6AB1DC2C8F54E6D9D59C04F /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerBridge+Private.mm */,
+				4D861712AC39445C91D84502 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output/EZRAudioStreamerPlatformService+Private.mm */,
+				CC462759672B49C78D44928A /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp/audio_streamer_bridge_impl.cpp */,
+				FD9591D8CEDA45C9A090F72E /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc/EZRAudioStreamerPlatformServiceImpl.m */,
+				6AC9DDBB4C264E29A6BE5ACF /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessageBridge+Private.mm */,
+				0A494E75F47A477EA0BFC0BA /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output/EZRGreetingMessagePlatformService+Private.mm */,
+				C2523457F3A54B25A40559A3 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/cpp/GreetingMessageBridgeImpl.cpp */,
+				5A0791870F67447198B9ED0C /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc/EZRGreetingMessagePlatformServiceImpl.m */,
+				220A1D0F874144028D7EEB58 /* /Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared/ezored/sample/GreetingMessage.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AAE42C7FF814E9BBA908B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A702E9F68B404DACA0419685 /* EzoRed */;
+			targetProxy = 70ECCDADD2A54A7A83C0228D /* PBXContainerItemProxy */;
+		};
+		C9EC9DB943E049F9A0E7864A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A306B1F1D5464EB48D3F7B /* ZERO_CHECK */;
+			targetProxy = 8156B026EEA44B44A0EF18B5 /* PBXContainerItemProxy */;
+		};
+		D76EC09D348A481AA0F08C01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A306B1F1D5464EB48D3F7B /* ZERO_CHECK */;
+			targetProxy = D9C40BD950094AA4826AFF8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C391FCEF77B46E3ACA01F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/build";
+			};
+			name = Release;
+		};
+		159234C6183D40F196EE8390 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54BDV6YZ73;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EzoRed_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INFOPLIST_FILE = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/EzoRed.dir/Info.plist";
+				INSTALL_PATH = "@loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fobjc-arc -Wall        -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fobjc-arc -std=c++11 -stdlib=libc++ -Wall -mtvos-simulator-version-min=8.0 -fembed-bitcode -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DNDEBUG        -fomit-frame-pointer -ffast-math -fembed-bitcode  -fPIC '-std=c++11'  ";
+				OTHER_LDFLAGS = "  -framework Foundation -framework UIKit -framework AVFoundation -framework UIKit -framework CoreFoundation -framework AVFoundation -framework CoreFoundation";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EzoRed;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		338AC1CD83F94C2398C4413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54BDV6YZ73;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EzoRed_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INFOPLIST_FILE = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/EzoRed.dir/Info.plist";
+				INSTALL_PATH = "@loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fobjc-arc -Wall     -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fobjc-arc -std=c++11 -stdlib=libc++ -Wall -mtvos-simulator-version-min=8.0 -fembed-bitcode -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DNDEBUG     -fomit-frame-pointer -ffast-math -fembed-bitcode  -fPIC '-std=c++11'  ";
+				OTHER_LDFLAGS = "  -framework Foundation -framework UIKit -framework AVFoundation -framework UIKit -framework CoreFoundation -framework AVFoundation -framework CoreFoundation";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EzoRed;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		434EC67A76DA45D2A601DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		49AEC0F187174F528DB1207B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		502467C3C1FE43E3BFB9BDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5BE501065A9048BE85CC8B56 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/build";
+			};
+			name = MinSizeRel;
+		};
+		85CB208E80A84FA2BF77E49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54BDV6YZ73;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EzoRed_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INFOPLIST_FILE = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/EzoRed.dir/Info.plist";
+				INSTALL_PATH = "@loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fobjc-arc -Wall    -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fobjc-arc -std=c++11 -stdlib=libc++ -Wall    -fPIC '-std=c++11'  ";
+				OTHER_LDFLAGS = "  -framework Foundation -framework UIKit -framework AVFoundation -framework UIKit -framework CoreFoundation -framework AVFoundation -framework CoreFoundation";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EzoRed;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		85E2CE7865FF4405830E217A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		916E133C94B34775868DE320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		948BC30914784B1A84BF1A1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		985F1B98C0CF4808B265E05E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B66C6B6D111346CBB7E1D216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/build";
+			};
+			name = Debug;
+		};
+		D22991F30EFE4D09B59EEE91 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54BDV6YZ73;
+				DYLIB_COMPATIBILITY_VERSION = 1.0.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",EzoRed_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INFOPLIST_FILE = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/EzoRed.dir/Info.plist";
+				INSTALL_PATH = "@loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fobjc-arc -Wall     -DNDEBUG -fPIC  ";
+				OTHER_CPLUSPLUSFLAGS = "-fobjc-arc -std=c++11 -stdlib=libc++ -Wall -mtvos-simulator-version-min=8.0 -fembed-bitcode -fvisibility=hidden -fvisibility-inlines-hidden -fobjc-abi-version=2 -fobjc-arc  -DNDEBUG     -fomit-frame-pointer -ffast-math -fembed-bitcode  -fPIC '-std=c++11'  ";
+				OTHER_LDFLAGS = "  -framework Foundation -framework UIKit -framework AVFoundation -framework UIKit -framework CoreFoundation -framework AVFoundation -framework CoreFoundation";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EzoRed;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DF51DAC68D214186ABA926AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-djinni-support-master/support-lib/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-sample-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/cpp","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-media-audio-streamer-master/source/objc","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/cpp-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/djinni/objc-output","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/shared","/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/dependency-http-httpclient-master/source/objc");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EAE42A038BEC4889BF7BFD76 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVSimulator.platform/Developer/SDKs/AppleTVSimulator11.2.sdk;
+				SYMROOT = "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034F5BD34AEA497DBB6CCE7E /* Build configuration list for PBXProject "EzoRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C6B6D111346CBB7E1D216 /* Debug */,
+				0C391FCEF77B46E3ACA01F74 /* Release */,
+				5BE501065A9048BE85CC8B56 /* MinSizeRel */,
+				EAE42A038BEC4889BF7BFD76 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		05E4A5B8148F4E34B1B68E2C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502467C3C1FE43E3BFB9BDE7 /* Debug */,
+				434EC67A76DA45D2A601DC1C /* Release */,
+				85E2CE7865FF4405830E217A /* MinSizeRel */,
+				49AEC0F187174F528DB1207B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4645040DBB57416F8D3AE64B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E133C94B34775868DE320 /* Debug */,
+				948BC30914784B1A84BF1A1B /* Release */,
+				DF51DAC68D214186ABA926AE /* MinSizeRel */,
+				985F1B98C0CF4808B265E05E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87F804746F4A4D2895921091 /* Build configuration list for PBXNativeTarget "EzoRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CB208E80A84FA2BF77E49B /* Debug */,
+				338AC1CD83F94C2398C4413B /* Release */,
+				D22991F30EFE4D09B59EEE91 /* MinSizeRel */,
+				159234C6183D40F196EE8390 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF142185F2A4F75B9799E05 /* Project object */;
+}

@@ -1,0 +1,3 @@
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/EzoRed.dir

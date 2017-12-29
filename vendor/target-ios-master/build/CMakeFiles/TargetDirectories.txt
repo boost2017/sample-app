@@ -1,0 +1,3 @@
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/EzoRed.dir
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/ALL_BUILD.dir
+/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-ios-master/build/CMakeFiles/ZERO_CHECK.dir

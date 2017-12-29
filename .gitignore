@@ -1,6 +1,6 @@
 # EzoRed
-/temp
-/vendor
+#/temp
+#/vendor
 
 # OSX
 .DS_Store

@@ -1,0 +1,57 @@
+targets:
+- name: ios
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/http_client_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/http_client_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/http_response.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientBridge.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientBridge+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientPlatformService.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientPlatformService+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpResponse.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpResponse+Private.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRHttpClientPlatformServiceImpl.h"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/HttpClientBridgeImpl.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientBridge+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpClientPlatformService+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpResponse.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/objc-output/EZRHttpResponse+Private.mm"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/objc/EZRHttpClientPlatformServiceImpl.m"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/HttpClientBridgeImpl.cpp"
+    framework_links:
+    - CoreFoundation
+- name: android
+  data:
+    header_search_paths:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/shared"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/java"
+    header_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/http_client_bridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/cpp-output/http_client_platform_service.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpClientBridge.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpClientPlatformService.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpResponse.hpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/HttpClientBridgeImpl.hpp"
+    source_files:
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpClientBridge.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpClientPlatformService.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/jni-output/HttpResponse.cpp"
+    - "${EZORED_DEPENDENCY_SOURCE_DIR}/source/cpp/HttpClientBridgeImpl.cpp"
+    copy_files:
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/HttpClientBridge.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/http/HttpClientBridge.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/HttpClientPlatformService.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/http/HttpClientPlatformService.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/djinni/java-output/HttpResponse.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/http/HttpResponse.java"
+    - from_path: "${EZORED_DEPENDENCY_SOURCE_DIR}/source/java/HttpClientPlatformServiceImpl.java"
+      to_path: "${EZORED_TARGET_VENDOR_DIR}/library/src/main/java/com/ezored/http/HttpClientPlatformServiceImpl.java"

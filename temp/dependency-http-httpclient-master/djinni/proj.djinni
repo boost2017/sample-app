@@ -1,0 +1,28 @@
+# Returned class of request methods
+http_response = record {
+    code: i32;
+    body: string;
+}
+
+# Platform-Specific implementation of Http Client class
+http_client_platform_service = interface +j +o {
+	do_get(url: string): http_response;
+	do_head(url: string): http_response;
+	do_post(url: string, data: string, content_type: string): http_response;
+	do_put(url: string, data: string, content_type: string): http_response;
+	do_delete(url: string, data: string, content_type: string): http_response;
+	do_patch(url: string, data: string, content_type: string): http_response;	
+}
+
+# Native Http Client Bridge class
+http_client_bridge = interface +c {
+	static shared_instance(): http_client_bridge;
+	set_platform_service(ps: http_client_platform_service);
+	get_platform_service(): http_client_platform_service;
+	do_get(url: string): http_response;
+	do_head(url: string): http_response;
+	do_post(url: string, data: string, content_type: string): http_response;
+	do_put(url: string, data: string, content_type: string): http_response;
+	do_delete(url: string, data: string, content_type: string): http_response;
+	do_patch(url: string, data: string, content_type: string): http_response;
+}

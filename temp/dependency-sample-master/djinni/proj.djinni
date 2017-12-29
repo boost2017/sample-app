@@ -1,0 +1,14 @@
+# Platform-Specific implementation of Greeting Message Platform Service class
+greeting_message_platform_service = interface +j +o {
+	show_greeting_message_alert(title: string, message: string);
+}
+
+# Native Greeting Message Bridge class
+greeting_message_bridge = interface +c {
+	static shared_instance(): greeting_message_bridge;
+	set_message(message: string);
+	get_message(): string;
+    print_message();
+	show_greeting_message_alert(title: string, message: string);
+	set_platform_service(ps: greeting_message_platform_service);
+}

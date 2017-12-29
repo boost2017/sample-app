@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/paulo/Developer/workspaces/cpp/ezored-sample-app/vendor/target-android-master/library/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/paulo/.android/build-cache/e81600679310a99fe8e2f6b69f5cfcb201e2adfd/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
