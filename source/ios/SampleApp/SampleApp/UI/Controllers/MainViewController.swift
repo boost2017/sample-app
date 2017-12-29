@@ -68,21 +68,23 @@ class MainViewController: BaseTableViewController {
     }
     
     func doActionAudio(tableView: UITableView, indexPath: IndexPath) {
-        guard let audio = EZRAudioStreamerBridge.sharedInstance() else {
-            return
-        }
-        
-        if audio.getPlatformService() == nil {
-            audio.setPlatformService(EZRAudioStreamerPlatformServiceImpl())
-            audio.setUrl("https://www.ezored.com/extras/audio/sample-music.mp3")
-        }
-        
-        let isPlaying = audio.isPlaying()
-        
-        if isPlaying {
-            audio.pause()
-        } else {
-            audio.play()
+        DispatchQueue.global(qos: .background).async {
+            guard let audio = EZRAudioStreamerBridge.sharedInstance() else {
+                return
+            }
+            
+            if audio.getPlatformService() == nil {
+                audio.setPlatformService(EZRAudioStreamerPlatformServiceImpl())
+                audio.setUrl("https://www.ezored.com/extras/audio/sample-music.mp3")
+            }
+            
+            let isPlaying = audio.isPlaying()
+            
+            if isPlaying {
+                audio.pause()
+            } else {
+                audio.play()
+            }
         }
     }
     

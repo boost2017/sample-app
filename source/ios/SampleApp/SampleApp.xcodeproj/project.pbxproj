@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2BA4A91FF62C3900B22A6E /* EzoRed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2BA4A81FF62C3900B22A6E /* EzoRed.framework */; };
+		3A2BA4AA1FF62C3900B22A6E /* EzoRed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2BA4A81FF62C3900B22A6E /* EzoRed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3A2E4DDA1FF5EAAD00AE317B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E4DD91FF5EAAD00AE317B /* AppDelegate.swift */; };
 		3A2E4DE11FF5EAAD00AE317B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E4DE01FF5EAAD00AE317B /* Assets.xcassets */; };
 		3A2E4DE41FF5EAAD00AE317B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E4DE21FF5EAAD00AE317B /* LaunchScreen.storyboard */; };
@@ -29,18 +31,16 @@
 		3A2E4E2E1FF5FCDF00AE317B /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E4E2D1FF5FCDF00AE317B /* UIUtil.swift */; };
 		3A2E4E301FF5FE0000AE317B /* DateTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E4E2F1FF5FE0000AE317B /* DateTimeUtil.swift */; };
 		3A2E4E321FF5FE3D00AE317B /* UIImageTintedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2E4E311FF5FE3D00AE317B /* UIImageTintedExtension.swift */; };
-		3A2E4E3D1FF610D600AE317B /* EzoRed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2E4E381FF60D6600AE317B /* EzoRed.framework */; };
-		3A2E4E3F1FF610ED00AE317B /* EzoRed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2E4E381FF60D6600AE317B /* EzoRed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3A2E4E401FF610EE00AE317B /* Embed Frameworks */ = {
+		3A2BA4AB1FF62C3900B22A6E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3A2E4E3F1FF610ED00AE317B /* EzoRed.framework in Embed Frameworks */,
+				3A2BA4AA1FF62C3900B22A6E /* EzoRed.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A2BA4A81FF62C3900B22A6E /* EzoRed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EzoRed.framework; path = "../../../build/ios/Debug-universal/EzoRed.framework"; sourceTree = "<group>"; };
 		3A2E4DD61FF5EAAD00AE317B /* EzoRed Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EzoRed Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2E4DD91FF5EAAD00AE317B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2E4DE01FF5EAAD00AE317B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		3A2E4E2D1FF5FCDF00AE317B /* UIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
 		3A2E4E2F1FF5FE0000AE317B /* DateTimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeUtil.swift; sourceTree = "<group>"; };
 		3A2E4E311FF5FE3D00AE317B /* UIImageTintedExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageTintedExtension.swift; sourceTree = "<group>"; };
-		3A2E4E381FF60D6600AE317B /* EzoRed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EzoRed.framework; path = "../../../build/ios/Release-Universal/EzoRed.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2E4E3D1FF610D600AE317B /* EzoRed.framework in Frameworks */,
+				3A2BA4A91FF62C3900B22A6E /* EzoRed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +91,7 @@
 		3A2E4DCD1FF5EAAD00AE317B = {
 			isa = PBXGroup;
 			children = (
+				3A2BA4A81FF62C3900B22A6E /* EzoRed.framework */,
 				3A2E4DD81FF5EAAD00AE317B /* SampleApp */,
 				3A2E4DD71FF5EAAD00AE317B /* Products */,
 				3A2E4E371FF60D6600AE317B /* Frameworks */,
@@ -203,7 +204,6 @@
 		3A2E4E371FF60D6600AE317B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A2E4E381FF60D6600AE317B /* EzoRed.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,7 +218,8 @@
 				3A2E4DD21FF5EAAD00AE317B /* Sources */,
 				3A2E4DD31FF5EAAD00AE317B /* Frameworks */,
 				3A2E4DD41FF5EAAD00AE317B /* Resources */,
-				3A2E4E401FF610EE00AE317B /* Embed Frameworks */,
+				3A2BA4AB1FF62C3900B22A6E /* Embed Frameworks */,
+				3A2BA4AC1FF62C4000B22A6E /* Trim Framework */,
 			);
 			buildRules = (
 			);
@@ -275,6 +276,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A2BA4AC1FF62C4000B22A6E /* Trim Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Trim Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/trim.sh EzoRed";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A2E4DD21FF5EAAD00AE317B /* Sources */ = {
@@ -432,7 +450,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99AHAA343Q;
-				FRAMEWORK_SEARCH_PATHS = "../../../build/ios/Debug-Universal";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../build/ios/Debug-universal";
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezored.sampleapp;
@@ -451,7 +470,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99AHAA343Q;
-				FRAMEWORK_SEARCH_PATHS = "../../../build/ios/Release-Universal";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../build/ios/Debug-universal";
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezored.sampleapp;

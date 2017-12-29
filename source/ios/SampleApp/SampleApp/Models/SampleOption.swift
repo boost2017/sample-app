@@ -13,11 +13,11 @@ class SampleOption {
     
     func getDescription() -> String {
         if type == .message {
-            return "Message"
+            return "Sample » Message"
         } else if type == .audio {
-            return "Media > Audio Streamer"
+            return "Media » Audio Streamer"
         } else if type == .http {
-            return "HTTP > HTTP Client"
+            return "HTTP » HTTP Client"
         }
         
         return ""
